@@ -1,0 +1,70 @@
+body{
+    background-color: #82ccdd;
+    font-family: 'Akaya Telivigala', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#sideleft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 54%;
+    width: 30%;
+    margin: 20px;
+}
+#middle{
+    border: 1px solid red;
+    height: 50%;
+}
+#sideright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 54%;
+    width: 30%;
+    margin: 20px;
+}
+input{
+    background-color: #78e08f;
+    border-bottom: 2px solid #e55039;
+    height: 50px;
+    width: 80%;
+    border-radius: 2px;
+    outline-style: none;
+    font-family: 'Akaya Telivigala', cursive;
+    color: grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-weight: bold;
+}
+#robot{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    font-size: large;
+}
+#connecter{
+    background-color: #079992;
+    border-bottom: none;
+    color: #b71540;
+    font-size: medium;
+    box-shadow: 2px 2px black;   
+}
+#inscription{
+    background-color: #079992;
+    border-bottom: none;
+    color: #b71540;
+    font-size: medium;
+    box-shadow: 2px 2px black; 
+}
+#box{
+    height: 10px;
+    width: 10px;
+    margin-top: 20px;
+    transform: scale(2.5);
+}
